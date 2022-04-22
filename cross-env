@@ -1,0 +1,18 @@
+ ERROR  Failed to compile with 2 errors8:09:22 PM
+
+These dependencies were not found:
+
+* G:\Program Files\Ampps\www\lsapp\resources\js\app.js in multi ./resources/js/app.js ./resources/sass/app.scss
+* G:\Program Files\Ampps\www\lsapp\resources\sass\app.scss in multi ./resources/js/app.js ./resources/sass/app.scss
+
+To install them, you can run: npm install --save G:\Program Files\Ampps\www\lsapp\resources\js\app.js G:\Program Files\Ampps\www\lsapp\resources\sass\app.scss
+     Asset      Size   Chunks             Chunk Names
+/js/app.js  4.18 KiB  /js/app  [emitted]  /js/app
+
+ERROR in multi ./resources/js/app.js ./resources/sass/app.scss
+Module not found: Error: Can't resolve 'G:\Program Files\Ampps\www\lsapp\resources\js\app.js' in 'G:\Program Files\Ampps\www\lsapp'
+ @ multi ./resources/js/app.js ./resources/sass/app.scss /js/app[0]
+
+ERROR in multi ./resources/js/app.js ./resources/sass/app.scss
+Module not found: Error: Can't resolve 'G:\Program Files\Ampps\www\lsapp\resources\sass\app.scss' in 'G:\Program Files\Ampps\www\lsapp'
+ @ multi ./resources/js/app.js ./resources/sass/app.scss /js/app[1]
